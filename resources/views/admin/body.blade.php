@@ -1,4 +1,4 @@
-<div class="main-panel">
+<div class="main-panel" align =" center">
           <div class="content-wrapper">
             <div class="row">
               <div class="col-12 grid-margin stretch-card">
@@ -9,12 +9,12 @@
                         <img src="assets/images/dashboard/Group126@2x.png" class="gradient-corona-img img-fluid" alt="">
                       </div>
                       <div class="col-5 col-sm-7 col-xl-8 p-0">
-                        <h4 class="mb-1 mb-sm-0">Want even more features?</h4>
-                        <p class="mb-0 font-weight-normal d-none d-sm-block">Check out our Pro version with 5 unique layouts!</p>
+                        <h4 class="mb-1 mb-sm-0"></h4>
+                        <p class="mb-0 font-weight-normal d-none d-sm-block"><!--Check out our Pro version with 5 unique layouts!--></p>
                       </div>
                       <div class="col-3 col-sm-2 col-xl-2 ps-0 text-center">
                         <span>
-                          <a href="https://www.bootstrapdash.com/product/corona-admin-template/" target="_blank" class="btn btn-outline-light btn-rounded get-started-btn">Upgrade to PRO</a>
+                          <a href="https://www.bootstrapdash.com/product/corona-admin-template/" target="_blank" class="btn btn-outline-light btn-rounded get-started-btn"></a>
                         </span>
                       </div>
                     </div>
@@ -22,7 +22,7 @@
                 </div>
               </div>
             </div>
-            <div class="row">
+           <!-- <div class="row">
               <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
@@ -103,8 +103,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="row">
+            </div>-->
+          <!--  <div class="row">
               <div class="col-md-4 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
@@ -232,8 +232,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="row">
+            </div>-->
+           <!-- <div class="row">
               <div class="col-sm-4 grid-margin">
                 <div class="card">
                   <div class="card-body">
@@ -291,8 +291,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="row ">
+            </div>-->
+            <!--<div class="row ">
               <div class="col-12 grid-margin">
                 <div class="card">
                   <div class="card-body">
@@ -429,14 +429,14 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 col-xl-4 grid-margin stretch-card">
+            </div>-->
+            <div class="row" align ="center" style="padding: left 300px;">
+              <div class="col-md-6 col-xl-4 grid-margin stretch-card" style=" width= 50%">
                 <div class="card">
                   <div class="card-body">
                     <div class="d-flex flex-row justify-content-between">
                       <h4 class="card-title">Messages</h4>
-                      <p class="text-muted mb-1 small">View all</p>
+                      <p class="text-muted mb-1 small">voir tout</p>
                     </div>
                     <div class="preview-list">
                       <div class="preview-item border-bottom">
@@ -447,9 +447,9 @@
                           <div class="flex-grow">
                             <div class="d-flex d-md-block d-xl-flex justify-content-between">
                               <h6 class="preview-subject">Leonard</h6>
-                              <p class="text-muted text-small">5 minutes ago</p>
+                              <p class="text-muted text-small">il y a 5 minutes</p>
                             </div>
-                            <p class="text-muted">Well, it seems to be working now.</p>
+                            <p class="text-muted">Bonsoir j'ai eu quelque problemes donc mes dossiers seront un peu en retard.</p>
                           </div>
                         </div>
                       </div>
@@ -461,9 +461,9 @@
                           <div class="flex-grow">
                             <div class="d-flex d-md-block d-xl-flex justify-content-between">
                               <h6 class="preview-subject">Luella Mills</h6>
-                              <p class="text-muted text-small">10 Minutes Ago</p>
+                              <p class="text-muted text-small">il y a 10 Minutes</p>
                             </div>
-                            <p class="text-muted">Well, it seems to be working now.</p>
+                            <p class="text-muted">.</p>
                           </div>
                         </div>
                       </div>
@@ -481,25 +481,11 @@
                           </div>
                         </div>
                       </div>
-                      <div class="preview-item border-bottom">
-                        <div class="preview-thumbnail">
-                          <img src="assets/images/faces/face11.jpg" alt="image" class="rounded-circle" />
-                        </div>
-                        <div class="preview-item-content d-flex flex-grow">
-                          <div class="flex-grow">
-                            <div class="d-flex d-md-block d-xl-flex justify-content-between">
-                              <h6 class="preview-subject">Herman May</h6>
-                              <p class="text-muted text-small">4 Hours Ago</p>
-                            </div>
-                            <p class="text-muted">Thanks a lot. It was easy to fix it .</p>
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-xl-4 grid-margin stretch-card">
+              <!--<div class="col-md-6 col-xl-4 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
                     <h4 class="card-title">Portfolio Slide</h4>
@@ -538,49 +524,36 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div>-->
               <div class="col-md-12 col-xl-4 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-title">To do list</h4>
+                    <h4 class="card-title">liste des taches à faire</h4>
                     <div class="add-items d-flex">
-                      <input type="text" class="form-control todo-list-input" placeholder="enter task..">
-                      <button class="add btn btn-primary todo-list-add-btn">Add</button>
+                      <input type="text" class="form-control todo-list-input" placeholder="entrez une tache ..">
+                      <button class="add btn btn-primary todo-list-add-btn">Ajouter</button>
                     </div>
                     <div class="list-wrapper">
                       <ul class="d-flex flex-column-reverse text-white todo-list todo-list-custom">
                         <li>
                           <div class="form-check form-check-primary">
                             <label class="form-check-label">
-                              <input class="checkbox" type="checkbox"> Create invoice </label>
+                              <input class="checkbox" type="checkbox">consultation des dossiers</label>
                           </div>
                           <i class="remove mdi mdi-close-box"></i>
                         </li>
                         <li>
                           <div class="form-check form-check-primary">
                             <label class="form-check-label">
-                              <input class="checkbox" type="checkbox"> Meeting with Alita </label>
+                              <input class="checkbox" type="checkbox">validation des dossiers </label>
                           </div>
                           <i class="remove mdi mdi-close-box"></i>
                         </li>
-                        <li class="completed">
-                          <div class="form-check form-check-primary">
-                            <label class="form-check-label">
-                              <input class="checkbox" type="checkbox" checked> Prepare for presentation </label>
-                          </div>
-                          <i class="remove mdi mdi-close-box"></i>
-                        </li>
+                       
                         <li>
                           <div class="form-check form-check-primary">
                             <label class="form-check-label">
-                              <input class="checkbox" type="checkbox"> Plan weekend outing </label>
-                          </div>
-                          <i class="remove mdi mdi-close-box"></i>
-                        </li>
-                        <li>
-                          <div class="form-check form-check-primary">
-                            <label class="form-check-label">
-                              <input class="checkbox" type="checkbox"> Pick up kids from school </label>
+                              <input class="checkbox" type="checkbox"> contacter les professeurs </label>
                           </div>
                           <i class="remove mdi mdi-close-box"></i>
                         </li>
@@ -590,7 +563,7 @@
                 </div>
               </div>
             </div>
-            <div class="row">
+           <!-- <div class="row">
               <div class="col-12">
                 <div class="card">
                   <div class="card-body">
@@ -660,7 +633,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div>-->
           <!-- content-wrapper ends -->
           <!-- partial:partials/_footer.html -->
           <footer class="footer">

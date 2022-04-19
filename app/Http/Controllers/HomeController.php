@@ -89,8 +89,9 @@ class HomeController extends Controller
 
         if(Auth::id())
         {
+            //$info=professorsinfo::all();
             $userid=Auth::user()->id;
-            $info=professorsinfo::where('user_id',$userid)->get();
+            $info=professorsinfo::where('id',$userid)->get();
             return view('user.mes_infos',compact('info'));
         }
         else{

@@ -1,6 +1,6 @@
 <div class="page-section">
         <div class="container">
-            <h3 class="text-center wow fadeInUp" style=" background-color:skyblue; " >Saisissez vos informations apres incription </h3>
+            <h2 class="text-center wow fadeInUp" style=" background-color:skyblue; " >Saisissez vos informations  </h2>
 			<br>
 
             <form  class="main-form" method="GET"  action="{{url('professorinfo')}}" enctype="multipart/form-data">

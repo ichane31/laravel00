@@ -185,8 +185,11 @@
         <!-- .bg-light -->
     </div>
     <!-- .bg-light -->
-
-    @include('user.professeursinfo') 
+    @if(Route::has('login'))
+    @auth
+        @include('user.professeursinfo') 
+    @endauth
+    @endif
    
     <!--
     @include('user.latest')
