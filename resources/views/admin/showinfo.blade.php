@@ -54,7 +54,7 @@
          </tr>
          @foreach($data as $info)
          <tr align="center" style="background-color:skyblue; ">
-             <td>{{$info->nom}}</td>
+             <td></a>{{$info->nom}}</td>
              <td>{{$info->photo}}</td>
              <td>{{$info->cin}}</td>
              <td>{{$info->drpp}}</td>
@@ -63,9 +63,9 @@
              <td>{{$info->email}}</td>
              <td>{{$info->specialite}}</td>
              <td>{{$info->structure}}</td>
-             <td>{{$info->dossierA}}</td>
-             <td>{{$info->dossierP}}</td>
-             <td>{{$info->dossierS}}</td>
+             <td><a download>{{$info->dossierA}}</a></td>
+             <td><a download>{{$info->dossierP}}</a></td>
+             <td><a download>{{$info->dossierS}}</a></td>
              <td>{{$info->status}}</td>
              <td><a class="btn btn-success" href=" {{url('approuver',$info->id)}}">Approu</a></td>
              <td><a class="btn btn-danger" href="{{url('rejeter',$info->id)}}">Rejet</a></td>

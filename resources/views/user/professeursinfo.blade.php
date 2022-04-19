@@ -20,7 +20,7 @@
 		</tr>
 		<tr>
 			<td>Photo : </td>
-			<td><input type="file" name="photo"   /></td>
+			<td><a download><input type="file" name="photo"   /></a></td>
 
 		</tr>
 		<tr>
@@ -75,12 +75,12 @@
 		</tr>
 		<tr>
 		<td>dossier P: </td>
-		<td><input type="file" name="dossierP"  /></td>
+		<td><a download><input type="file" name="dossierP"  /></a></td>
 			
 		</tr>
 		<tr>
 		<td>dossier S : </td>
-		<td><input type="file" name="dossierS"  /></td>
+		<td><a download><input type="file" name="dossierS"  /></a></td>
 			
 		</tr>
 		<tr>
